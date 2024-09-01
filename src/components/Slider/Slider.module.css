@@ -1,0 +1,16 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.arrow {
+    width: 50px;
+    margin-top: 35px;
+    align-self: flex-start;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

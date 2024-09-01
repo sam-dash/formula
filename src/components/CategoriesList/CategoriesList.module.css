@@ -1,0 +1,18 @@
+.cardWrapper {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    margin-top: 20px;
+    overflow-x: auto; /* Скрываем горизонтальный скролл по умолчанию */
+    -ms-overflow-style: none;  /* Для IE и Edge */
+    scrollbar-width: none;      /* Для Firefox */
+}
+
+/* Скрываем горизонтальную полосу прокрутки */
+.cards::-webkit-scrollbar {
+    display: none; /* Для Chrome, Safari и Opera */
+}

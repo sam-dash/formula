@@ -1,0 +1,8 @@
+.recipesWrapper {
+    display: flex;
+    row-gap: 100px;
+    column-gap: 50px;
+    justify-content: space-around;
+    margin: 100px 20px;
+    flex-wrap: wrap;
+}

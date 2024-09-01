@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.category {
+    width: 250px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    list-style: none;
+    background: linear-gradient(-90deg, #f0f0f0 0%, #504f4f 50%, #f0f0f0 100%);
+    background-size: 400% 400%;
+    animation: pulse 1.2s ease-in-out infinite;
+}
+
+.one {
+    margin-top: 20px;
+}
+
+@keyframes pulse {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: -135% 0%;
+    }
+}

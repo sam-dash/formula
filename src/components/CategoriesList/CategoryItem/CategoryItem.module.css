@@ -1,0 +1,12 @@
+.cardImage {
+    width: 250px;
+    background-color: #504f4f;
+    border-radius: 50px;
+}
+
+.cardTitle {
+    display: block;
+    padding: 15px;
+    font-size: 26px;
+    text-align: center;
+}
